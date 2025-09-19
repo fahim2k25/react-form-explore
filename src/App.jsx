@@ -4,6 +4,7 @@ import './App.css'
 import SimpleForm from './components/SimpleForm'
 import FormAction from './components/FormAction'
 import ControlledForm from './components/ControlledForm'
+import UnControlledForm from './components/UnControlledForm'
 
 function App() {
 
@@ -25,6 +26,8 @@ function App() {
       <FormAction></FormAction>
       <h2>form-3 (Controlled Form)</h2>
       <ControlledForm></ControlledForm>
+      <h2>form-4 (UnControlled FOrm)</h2>
+      <UnControlledForm></UnControlledForm>
     </>
   )
 }

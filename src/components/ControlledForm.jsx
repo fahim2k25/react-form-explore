@@ -26,7 +26,7 @@ const ControlledForm = () => {
                 <input type="password" onChange={handleCahnge} defaultValue={pass} name="password" placeholder="Pass WORD" />
                 <input type="submit" value="Submit" />
             </form>
-            <p><small style={{ color: "orange", fontStyle: "italic" }}>
+            <p><small style={{ color: "orange", fontStyle: "italic", fontSize: "larger" }}>
                 {err}
             </small></p>
         </div>
