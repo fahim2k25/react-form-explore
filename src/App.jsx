@@ -2,6 +2,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import SimpleForm from './components/SimpleForm'
+import FormAction from './components/FormAction'
 
 function App() {
 
@@ -17,7 +18,11 @@ function App() {
       </div>
       <h1>Vite + React</h1>
       <h2>Form starts here</h2>
+      <h2>form-1 (SimpleForm)</h2>
       <SimpleForm></SimpleForm>
+      <h2>form-2 (FormAction)</h2>
+      <FormAction></FormAction>
+      <h2>form-3 (Controlled Form)</h2>
     </>
   )
 }
