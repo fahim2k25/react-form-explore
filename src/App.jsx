@@ -3,6 +3,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import SimpleForm from './components/SimpleForm'
 import FormAction from './components/FormAction'
+import ControlledForm from './components/ControlledForm'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
       <h2>form-2 (FormAction)</h2>
       <FormAction></FormAction>
       <h2>form-3 (Controlled Form)</h2>
+      <ControlledForm></ControlledForm>
     </>
   )
 }
