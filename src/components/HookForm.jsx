@@ -4,9 +4,12 @@ import useInput from '../hooks/useInput';
 const HookForm = () => {
 
     const [name, nameOnChange] = useInput('');
+    const [email, emailOnChange] = useInput('');
+    const [pass, passOnChange] = useInput('');
+
     const handleSUb = (event) => {
         event.preventDefault();
-        console.log(name)
+        console.log(name, email, pass)
     }
 
     return (
@@ -15,9 +18,9 @@ const HookForm = () => {
 
                 <input type="text" defaultValue={name} onChange={nameOnChange} name='name' placeholder='Enter Name' />
 
-                <input type="email" name="email" placeholder='Insert EMail' />
+                <input type="email" defaultValue={email} onChange={emailOnChange} name="email" placeholder='Insert EMail' />
 
-                <input type="password" name="password" placeholder='Insert Pass' />
+                <input type="password" name="password" defaultValue={pass} onChange={passOnChange} placeholder='Insert Pass' />
 
                 <input type="submit" value="Submit" />
             </form>
