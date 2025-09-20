@@ -5,6 +5,7 @@ import SimpleForm from './components/SimpleForm'
 import FormAction from './components/FormAction'
 import ControlledForm from './components/ControlledForm'
 import UnControlledForm from './components/UnControlledForm'
+import HookForm from './components/HookForm'
 
 function App() {
 
@@ -28,6 +29,8 @@ function App() {
       <ControlledForm></ControlledForm>
       <h2>form-4 (UnControlled FOrm)</h2>
       <UnControlledForm></UnControlledForm>
+      <h2>form-5 (Hook Form)</h2>
+      <HookForm></HookForm>
     </>
   )
 }
