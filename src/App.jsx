@@ -6,6 +6,7 @@ import FormAction from './components/FormAction'
 import ControlledForm from './components/ControlledForm'
 import UnControlledForm from './components/UnControlledForm'
 import HookForm from './components/HookForm'
+import ProductManagement from './components/ProductManagement/ProductManagement'
 
 function App() {
 
@@ -31,6 +32,8 @@ function App() {
       <UnControlledForm></UnControlledForm>
       <h2>form-5 (Hook Form)</h2>
       <HookForm></HookForm>
+      <h2>form-6 (Product Management Form)</h2>
+      <ProductManagement></ProductManagement>
     </>
   )
 }
