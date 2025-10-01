@@ -14,10 +14,12 @@ const ProductTable = ({ products }) => {
                     Product details for shopping
                 </caption>
                 <thead className='textB'>
-                    <td>Sl#</td>
-                    <td>Product Name</td>
-                    <td>Price</td>
-                    <td>Quantity</td>
+                    <tr>
+                        <td>Sl#</td>
+                        <td>Product Name</td>
+                        <td>Price</td>
+                        <td>Quantity</td>
+                    </tr>
                 </thead>
                 <tbody>
                     {
