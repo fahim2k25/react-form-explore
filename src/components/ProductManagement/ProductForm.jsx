@@ -1,5 +1,5 @@
 
-const ProductForm = () => {
+const ProductForm = ({ handleProductList }) => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -8,7 +8,7 @@ const ProductForm = () => {
         const quantity = e.target.quantity.value;
 
         const productDeetz = { name, price, quantity };
-        console.log(productDeetz)
+        handleProductList(productDeetz);
     }
 
     return (
