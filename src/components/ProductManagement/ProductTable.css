@@ -3,3 +3,13 @@ td {
     border: 2px solid antiquewhite;
     padding: 8px;
 }
+
+.textB {
+    font-weight: 800;
+    font-size: large;
+}
+
+#tabeel {
+    display: flex;
+    flex-direction: column;
+}
